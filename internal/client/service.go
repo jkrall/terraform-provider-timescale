@@ -28,12 +28,12 @@ type Service struct {
 }
 
 type ServiceSpec struct {
-	Hostname       string `json:"hostname"`
-	Username       string `json:"username"`
-	Port           int64  `json:"port"`
-	PoolerHostname string `json:"poolerHostName"`
-	PoolerPort     int64  `json:"poolerPort"`
-	Pooler         bool   `json:"connectionPoolerEnabled"`
+	Hostname                string `json:"hostname"`
+	Username                string `json:"username"`
+	Port                    int64  `json:"port"`
+	PoolerHostname          string `json:"poolerHostName"`
+	PoolerPort              int64  `json:"poolerPort"`
+	ConnectionPoolerEnabled bool   `json:"connectionPoolerEnabled"`
 }
 
 type VPCEndpoint struct {
